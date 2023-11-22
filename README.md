@@ -15,7 +15,7 @@ The repository includes all raw, interim, and final data outputs. We note that s
 This study does not make use of any minted software releases. The raw data and all code is included in the repository. Instructions for reproducing reported summary statistics and figures in the manuscript are in the next section.
 
 ## Reproduce my analysis
-These instructions assume that you have conda or mamba installed. These instructions were successfully followed on an Ubuntu machine with conda version 23.3.1 (mamba 1.4.2) and a macOS Monterey (version 12.4) machine with conda version 23.1.0. Mamba solves the environment much faster than conda and is recommended if you have it set up.   
+These instructions assume that you have conda or mamba installed. These instructions were successfully followed on an Ubuntu machine with mamba version 1.4.2 and a macOS Monterey (version 12.4) machine with conda version 23.1.0. Mamba solves the environment much faster than conda and is recommended if you have it set up.   
 
 ### Environment set up
 
