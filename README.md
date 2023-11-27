@@ -15,13 +15,15 @@ The repository includes all raw, interim, and final data outputs. We note that s
 This study does not make use of any minted software releases. The raw data and all code is included in the repository. Instructions for reproducing reported summary statistics and figures in the manuscript are in the next section.
 
 ## Reproduce my analysis
-These instructions assume that you have conda or mamba installed. These instructions were successfully followed on an Ubuntu machine with mamba version 1.4.2 and a macOS Monterey (version 12.4) machine with conda version 23.1.0. Mamba solves the environment much faster than conda and is recommended if you have it set up.   
+These instructions assume that you have [conda](https://docs.conda.io/en/latest/) or [mamba](https://mamba.readthedocs.io/en/latest/) installed. These instructions were successfully followed on the following systems:
+1. Ubuntu machine with mamba version 1.4.2
+2. A macOS Monterey (version 12.4) machine with conda version 23.1.0. Mamba solves the environment much faster than conda and is recommended if you have it set up.
+3. A macOS Moneterey (version 12.2) with conda version 22.9.0.    
 
 ### Environment set up
-
-1. Clone the repository into a local project directory
-2. In your local project directory, run 'cd env' and then `conda env create -f environment.yml` or replace `conda` with `mamba`
-3. Create an ipykernel for the environment. For the remainder of the instructions, we refer to this as the 'project environment.' If you are new to Jupyter Notebooks and/or conda, please see: https://ipython.readthedocs.io/en/stable/install/kernel_install.html#kernels-for-different-environments
+1. Clone the repository into a local project directory.
+2. From the terminal in your local project directory, run `cd env` and then `conda env create -f environment.yml` or replace `conda` with `mamba`
+3. Create an ipykernel for the environment. For the remainder of the instructions, we refer to this as the 'project environment.' If you are new to Jupyter Notebooks and/or conda, please see: https://ipython.readthedocs.io/en/stable/install/kernel_install.html#kernels-for-different-environments. 
 
 ### Processing data
 In the src/ directory, open the process_data.ipynb notebook and activate the project environment. You can run all cells. The code in this notebook performs two tasks. First, it returns the list of journals to search according to the criteria defined in the Supplementary Information in the manuscript. Second, it takes the list of articles returned for each journal and applies the criteria defined in the Supplementary Information to obtain our review sample. The following table is a summary of the tasks:
