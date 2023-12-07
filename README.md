@@ -1,6 +1,5 @@
 # open
-
-_placeholder for zenodo badge_
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.10290863.svg)](https://doi.org/10.5281/zenodo.10290863)
 
 ## Overview
 This repository stores the entire workflow for the perspective "Peer-reviewed climate change research has a transparency problem. The scientific community needs to do better." This includes all data corresponding to the articles included in our review sample, and all code for processing data, generating summary statistics, and producing the figures in the manuscript. 
