@@ -33,7 +33,7 @@ In the src/ directory, open the process_data.ipynb notebook and activate the pro
 |Obtain and write out the articles that make our review sample|data/raw/articles/*.txt|data/interim/articles.csv|
 
 ### Generating summary statistics and figures
-In the src/directory, open the Results.ipynb notebook and activate the project environment. You can run all cells. This notebook performs several tasks. First, the data from data/processed/articles_reviewed.csv and data/processed/journals_to_search.csv are loaded and merged to process the results of our review into summary statistics and figures. Second, summary statistics about data and code openness are computed and printed. Third, figure 1 is produced. Finally, the base figure for figure 2 is produced. Figures 1 and 2 are written out in the fig/ directory as png files. 
+In the src/directory, open the Results.ipynb notebook and activate the project environment. You can run all cells. This notebook performs several tasks. First, the data from data/processed/articles_reviewed.csv and data/processed/journals_to_search.csv are loaded and merged to process the results of our review into summary statistics and figures. Second, summary statistics about data and code openness are computed and printed. Finally, figures 1 and 2 are written out in the fig/ directory as png files. 
 
 ## Contact (corresponding author)
 So far, these instructions have resulted in successful reproduction of the figures and summary statistics reported in the manuscript, but you may run into issues and need assistance debugging. Please contact Adam Pollack at adam.b.pollack@dartmouth.edu if you have any issues following these steps. 
