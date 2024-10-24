@@ -1,0 +1,15 @@
+# This CITATION.cff file was generated with cffinit.
+# Visit https://bit.ly/cffinit to generate yours today!
+
+cff-version: 1.2.0
+title: open
+message: ' Summarizing and visualizing results from review of data and code openness of impactful peer-reviewed publications focused on climate change '
+type: software
+authors:
+  - given-names: Adam
+    family-names: Pollack
+    orcid: 'https://orcid.org/0000-0001-6642-0591'
+identifiers:
+  - type: doi
+    value: 10.5281/zenodo.10290994
+license: CC-BY-4.0
