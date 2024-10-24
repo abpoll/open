@@ -20,9 +20,18 @@ These instructions assume that you have [conda](https://docs.conda.io/en/latest/
 3. A macOS Moneterey (version 12.2) with conda version 22.9.0.    
 
 ### Environment set up
-1. Clone the repository into a local project directory.
-2. From the terminal in your local project directory, run `cd env` and then `conda env create -f environment.yml` or replace `conda` with `mamba`
-3. Create an ipykernel for the environment. For the remainder of the instructions, we refer to this as the 'project environment.' If you are new to Jupyter Notebooks and/or conda, please see: https://ipython.readthedocs.io/en/stable/install/kernel_install.html#kernels-for-different-environments. 
+Clone the repository into a local project directory.
+
+#### With Conda
+From the terminal in your local project directory, run `cd env` and then `conda env create -f environment.yml` or replace `conda` with `mamba`
+
+#### With Pip
+1. From the terminal in your local project directory, run `conda env create -n open python=3.11.7` or replace "open" with the environment name of your choice.
+2. Activate the conda environment. 
+3. Run `pip install -r requirements.txt`
+
+#### Create ipykernel to run Jupyter Notebooks
+Create an ipykernel for the environment. For the remainder of the instructions, we refer to this as the 'project environment.' If you are new to Jupyter Notebooks and/or conda, please see: https://ipython.readthedocs.io/en/stable/install/kernel_install.html#kernels-for-different-environments. 
 
 ### Processing data
 In the src/ directory, open the process_data.ipynb notebook and activate the project environment. You can run all cells. The code in this notebook performs two tasks. First, it returns the list of journals to search according to the criteria defined in the Supplementary Information in the manuscript. Second, it takes the list of articles returned for each journal and applies the criteria defined in the Supplementary Information to obtain our review sample. The following table is a summary of the tasks:

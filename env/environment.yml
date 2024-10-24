@@ -2,6 +2,7 @@ name: open
 channels:
   - conda-forge
 dependencies:
+  - python=3.11.7
   - pandas=2.0.3
   - jupyter=1.0.0
   - matplotlib=3.7.2
