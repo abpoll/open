@@ -2,7 +2,7 @@
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.10291042.svg)](https://doi.org/10.5281/zenodo.10291042)
 
 ## Overview
-This repository stores the entire workflow for the perspective "Peer-reviewed climate change research has a transparency problem. The scientific community needs to do better." This includes all data corresponding to the articles included in our review sample, and all code for processing data, generating summary statistics, and producing the figures in the manuscript. 
+This repository stores the entire workflow for the perspective "Investing in open and FAIR practices for more usable and equitable climate-risk research" This includes all data corresponding to the articles included in our review sample, and all code for processing data, generating summary statistics, and producing the figures in the manuscript. 
 
 ## Journal reference
 Will update upon acceptance to a peer-reviewed journal. 
@@ -21,6 +21,8 @@ These instructions assume that you have [conda](https://docs.conda.io/en/latest/
 
 ### Environment set up
 Clone the repository into a local project directory.
+
+This project was developed with Python version 3.11.7
 
 #### With Conda
 From the terminal in your local project directory, run `cd env` and then `conda env create -f environment.yml` or replace `conda` with `mamba`.
