@@ -23,10 +23,10 @@ These instructions assume that you have [conda](https://docs.conda.io/en/latest/
 Clone the repository into a local project directory.
 
 #### With Conda
-From the terminal in your local project directory, run `cd env` and then `conda env create -f environment.yml` or replace `conda` with `mamba`
+From the terminal in your local project directory, run `cd env` and then `conda env create -f environment.yml` or replace `conda` with `mamba`.
 
 #### With Pip
-1. From the terminal in your local project directory, run `conda env create -n open python=3.11.7` or replace "open" with the environment name of your choice.
+1. From the terminal in your local project directory, run `conda create -n open python=3.11.7` or replace `conda` with `mamba`.
 2. Activate the conda environment. 
 3. Run `pip install -r requirements.txt`
 
