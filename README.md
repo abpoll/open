@@ -28,9 +28,7 @@ This project was developed with Python version 3.11.7
 From the terminal in your local project directory, run `cd env` and then `conda env create -f environment.yml` or replace `conda` with `mamba`.
 
 #### With Pip
-1. From the terminal in your local project directory, run `conda create -n open python=3.11.7` or replace `conda` with `mamba`.
-2. Activate the conda environment. 
-3. Run `pip install -r requirements.txt`
+From the terminal in your local project directory, `pip install -r requirements.txt`
 
 #### Create ipykernel to run Jupyter Notebooks
 Create an ipykernel for the environment. For the remainder of the instructions, we refer to this as the 'project environment.' If you are new to Jupyter Notebooks and/or conda, please see: https://ipython.readthedocs.io/en/stable/install/kernel_install.html#kernels-for-different-environments. 
